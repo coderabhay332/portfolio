@@ -65,7 +65,7 @@ export default function Header() {
         </nav>
 
           <a
-            href="#"
+            href="https://drive.google.com/file/d/15WdfaHgzNsmoIkg7giNg9Ww797VikZ8V/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="group hidden h-14 w-[153px] items-center justify-center gap-2 rounded border-2 border-primary bg-primary px-4 py-3 text-primary-foreground transition-all active:translate-y-1 md:flex hover:bg-background hover:text-foreground hover:shadow-bottom"
