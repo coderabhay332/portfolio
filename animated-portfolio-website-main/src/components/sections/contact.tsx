@@ -17,7 +17,7 @@ const socialLinks = [
   },
   {
     icon: Facebook,
-    href: "https://www.facebook.com/profile.php?id=100071492293346",
+    href: "https://www.facebook.com/profile.php?id=100009466975089",
     ariaLabel: "Facebook",
   },
   {
