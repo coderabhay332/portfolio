@@ -13,15 +13,28 @@ const projectsData: Project[] = [
 
   {
     number: "01",
+    title: "Socialkit – AI-Powered LinkedIn Content Creation Platform",
+    description: "Built an AI-powered LinkedIn content creation and personal branding platform for construction industry professionals. Implemented LinkedIn profile scraping via Apify to learn user writing style, and built a Master Style Extraction engine using Claude AI to create unique writing fingerprints. Developed a full content pipeline (Topics → Hooks → Posts) with vector similarity search via Pinecone for style matching. Features include content calendar, standalone post generator, lead magnet generation, and an admin panel for managing inspiration posts.",
+    technologies: ["Next.js", "React 19", "TypeScript", "Node.js", "Express.js", "MongoDB", "Redis", "Claude AI", "Pinecone", "Apify", "Tailwind CSS", "Docker", "AWS EC2"],
+    liveLink: "https://socialkit-j2y6.vercel.app/",
+  },
+  {
+    number: "02",
+    title: "StickyVerse – Aesthetic New Tab Productivity Dashboard",
+    description: "Built a Chrome extension that replaces the new tab page with a visual all-in-one productivity workspace. Features sticky notes with checklists and tags, task tracking, link vault with favicons, goals with progress bars, built-in Pomodoro timer, and productivity insights. Includes 8 beautiful themes, quick templates for daily planning, and optional cloud sync across devices. Published on Chrome Web Store.",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Chrome Extension API", "Cloud Sync", "Netlify"],
+    liveLink: "https://peaceful-peony-58cb08.netlify.app",
+  },
+  {
+    number: "03",
     title: "Memora – AI-Powered Notes Knowledge Chat App",
     description: "Developed an AI-powered note-taking platform enabling users to save and organize content (text/links) from platforms like Twitter, LinkedIn, YouTube, and Medium. Integrated OpenAI for content embedding and semantic search, storing vector data in Pinecone for contextual content retrieval and RAG-based conversations. Built a scalable backend with Node.js and TypeScript, using RabbitMQ for asynchronous job processing (content extraction, embedding generation). Engineered the system as a 'second brain' for developers, enabling fast recall, chat-based querying, and semantic organization of knowledge.",
     technologies: ["React.js", "TypeScript", "MongoDB", "RabbitMQ", "Pinecone", "OpenAI"],
     liveLink: "https://memora.sbs",
     githubLink: "https://github.com/coderabhay332/memora",
   },
-
   {
-    number: "02",
+    number: "04",
     title: "CVPerfecto – AI-Powered Resume Optimizer",
     description:
       "Built an AI-driven platform that customizes resumes based on job descriptions to achieve 90%+ ATS scores. Integrated Perplexity AI for keyword extraction and LaTeX resume generation with automated formatting. Developed full-stack app using React.js, TypeScript, Node.js, Express.js, MongoDB, and Tailwind CSS. Containerized backend with Docker and deployed using GitHub Actions for CI/CD automation.",
@@ -41,7 +54,7 @@ const projectsData: Project[] = [
     githubLink: "https://github.com/coderabhay332/expense-tracker"
   },
   {
-    number: "03",
+    number: "05",
     title: "SmartExpense – Full-Stack Expense Tracking Application",
     description:
       "Developed a modern expense tracker using MERN stack (MongoDB, Express.js, React, Node.js) for efficient finance management. Implemented JWT authentication, secure CRUD operations, and file uploads with Multer for receipts. Built interactive dashboards and financial analytics using Recharts, Framer Motion, and Tailwind CSS. Enabled PDF report generation with Puppeteer and EJS, providing visual spending insights.",
@@ -60,10 +73,9 @@ const projectsData: Project[] = [
     ],
     liveLink: "https://expense-tracker-delta-green.vercel.app/",
     githubLink: "https://github.com/coderabhay332/expense-tracker"
-    
   },
   {
-    number: "04",
+    number: "06",
     title: "FastagSeva – Secure FASTag Payment Processing System",
     description:
       "Developed a scalable payment system integrating Razorpay API for FASTag recharges with real-time webhook updates. Built secure backend using Node.js, Express.js, TypeScript, and MongoDB (Mongoose) for data persistence. Implemented JWT authentication, signature verification, and rate limiting for enhanced transaction security. Designed modular architecture ensuring automatic reconciliation, payment tracking, and error logging.",
@@ -82,11 +94,10 @@ const projectsData: Project[] = [
     githubLink: "https://github.com/coderabhay332/fastag-seva"
   },
   {
-    number: "05",
+    number: "07",
     title: "NGO Donation Platform",
     description: "Built a full-stack donation platform enabling users to contribute to active NGO campaigns via secure online payments. Integrated Stripe Checkout for handling one-time and recurring donations, with backend webhook support for tracking payments. Implemented JWT-based authentication and protected routes for user and admin access management. Documented APIs using Swagger/OpenAPI for better collaboration and testing. Containerized the application with Docker and automated deployments using GitHub Actions for CI/CD.",
     technologies: ["React.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "Stripe", "Docker"],
-   
     githubLink: "https://github.com/coderabhay332/ngo-donation-platform",
   },
 ];
